@@ -1,1 +1,1 @@
-docker build -t "10.0.0.149:5000/redis:dev-v1" .
+docker build --no-cache -t "private.docker.hub:5000/redis:v3.2.12.1" .
